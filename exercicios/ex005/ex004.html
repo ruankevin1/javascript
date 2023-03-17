@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>De qual país você é?</h1>
+    <p>
+        Digite aqui o seu país: 
+        <input type="text" name="pais" id="pais">
+        <input type="button" value="Confirmar" required onclick="enviar()">
+    </p>
+    <div id="resposta">
+
+    </div>
+    <script>
+        function enviar() {
+            var selecionarpais = document.getElementById(`pais`)
+            var resposta = document.getElementById(`resposta`)
+            var nomepais = (selecionarpais.value)
+            resposta.innerHTML = `Seja bem-vindo(a)!`
+            if (nomepais == `brasil`)
+                resposta.innerHTML += `<p>Você é Brasileiro!</p>`
+            }
+    </script>
+</body>
+</html>
