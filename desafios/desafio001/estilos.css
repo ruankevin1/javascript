@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(70, 142, 236);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+}
+
+div { 
+    text-align: center;
+    padding: 10px;
+    margin: 0px 10px 10px 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+div#foto {
+    width:230px;
+    height:230px;
+    border-radius:50%;
+    background:#000;
+    overflow: hidden;
+    margin: auto;
+}
+
+div img {
+    transform: scale(110%);
+}
+
+
+
